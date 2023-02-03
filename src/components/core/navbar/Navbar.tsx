@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { languages } from '../../../utils/languages';
 import Hamburger from '../Hamburger';
 import ButtonNavbar from './ButtonNavbar';
+import Logo from '../../../assets/Logo';
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -14,7 +15,7 @@ function Navbar() {
       <div className="h-full flex justify-between items-center">
         <div className="w-fit">
           <Link to="/home">
-            <i>M Y</i>
+            <Logo />
           </Link>
         </div>
         <nav className="max-lg:hidden flex items-center justify-center gap-5 md:basis-3/5">
