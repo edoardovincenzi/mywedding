@@ -1,9 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { languages } from '../../../utils/languages';
 import Hamburger from '../Hamburger';
 import ButtonNavbar from './ButtonNavbar';
 
 function Navbar() {
+  const { t, i18n } = useTranslation();
   return (
     <header
       id="navbar"
@@ -16,10 +18,25 @@ function Navbar() {
           </Link>
         </div>
         <nav className="max-lg:hidden flex items-center justify-center gap-5 md:basis-3/5">
-          <ButtonNavbar title="HOME" href="/home" />
-          <ButtonNavbar title="TIME BLOCK" href="/time-block" />
-          <ButtonNavbar title="VICINO A ME" href="/near-me" />
-          <ButtonNavbar title="CONTATTI" href="/about" />
+          <ButtonNavbar title={t('navBar.home')} href="/home" />
+          <ButtonNavbar title={t('navBar.timeBlock')} href="/time-block" />
+          <ButtonNavbar title={t('navBar.nearMe')} href="/near-me" />
+          <ButtonNavbar title={t('navBar.about')} href="/about" />
+          <div>
+            {Object.keys(languages).map((lng: any) => (
+              <button
+                key={lng}
+                style={{
+                  fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal',
+                  paddingLeft: '8px',
+                }}
+                type="submit"
+                onClick={() => i18n.changeLanguage(lng)}
+              >
+                {languages[lng].nativeName}
+              </button>
+            ))}
+          </div>
         </nav>
         <Hamburger />
       </div>
