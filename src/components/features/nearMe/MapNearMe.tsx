@@ -9,7 +9,7 @@ const MapNearMe = () => {
       center={[45.4, 10.87]}
       zoom={10}
       scrollWheelZoom={true}
-      className=" w-full mx-auto mt-11 rounded-lg !h-[50vh]"
+      className=" w-full mx-auto mt-4 rounded-lg !h-[50vh]"
       style={{ height: 'calc(100vh - 80px - 224px)' }}
     >
       <TileLayer

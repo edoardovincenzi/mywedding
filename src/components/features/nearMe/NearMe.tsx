@@ -1,3 +1,4 @@
+import TitleSection from '../../shared/TitleSection';
 import WrapperContainer from '../../shared/WrapperContainer';
 import CardInfo from './CardInfo';
 import MapNearMe from './MapNearMe';
@@ -7,7 +8,9 @@ const NearMe = () => {
     <WrapperContainer>
       <>
         <div className="h-[1px]"></div>
+        <TitleSection id="NearMe" title="VICINO A ME" />
         <MapNearMe />
+        <TitleSection id="NearMe" title="PUNTI DI INTERESSE VICINI" />
         <div className="flex justify-center gap-2 max-sm:gap-y-2 flex-wrap">
           <CardInfo
             id="Verona"

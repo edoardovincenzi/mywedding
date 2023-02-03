@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Savoye LET';
+  font-weight: bold;
+  src: url('./assets/fonts/Savoye\ LET.ttc') format('ttc');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Savoye LET', sans-serif;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
