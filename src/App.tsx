@@ -4,7 +4,7 @@ import Routing from './Routing';
 
 function App() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Navbar />
       <Routing />
       <Footer />

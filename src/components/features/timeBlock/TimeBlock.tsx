@@ -7,6 +7,7 @@ const TimeBlock = () => {
   return (
     <WrapperContainer>
       <>
+        <div className="h-[1px]"></div>
         <MapTimeBlock />
         <StepperTimeBlock />
       </>

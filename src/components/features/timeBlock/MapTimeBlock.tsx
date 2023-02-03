@@ -8,7 +8,7 @@ const MapTimeBlock = () => {
       center={[45.3, 11]}
       zoom={9}
       scrollWheelZoom={true}
-      className="h-[40vh] w-[80vw] mx-auto mt-11 rounded-lg"
+      className="h-[40vh] w-full mx-auto mt-11 rounded-lg"
     >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

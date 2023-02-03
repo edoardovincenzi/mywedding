@@ -17,10 +17,8 @@ const CountdownRendered = ({
   completed,
 }: CountdownRenderedProps) => {
   if (completed) {
-    // Render a completed state
     return <Completionist />;
   } else {
-    // Render a countdown
     return (
       <div
         className="flex justify-center items-center"
