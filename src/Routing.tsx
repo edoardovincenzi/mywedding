@@ -1,16 +1,16 @@
-import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import App from './App';
-import QrCode from './components/QrCode';
+import About from './components/features/about/About';
+import Home from './components/features/home/Home';
+import NearMe from './components/features/nearMe/NearMe';
+import TimeBlock from './components/features/timeBlock/TimeBlock';
 
 const Routing = () => {
   return (
     <Routes>
-      <Route path={`/`} element={<App />} />
-      <Route path={`/time-block`} element={<App />} />
-      <Route path={`/qr-code`} element={<QrCode />} />
-      <Route path={`/about`} element={<App />} />
-      <Route path={`/near`} element={<App />} />
+      <Route path={`/`} element={<Home />} />
+      <Route path={`/time-block`} element={<TimeBlock />} />
+      <Route path={`/about`} element={<About />} />
+      <Route path={`/near-me`} element={<NearMe />} />
       <Route path="*" element={<Navigate replace to={`/`} />} />
     </Routes>
   );
