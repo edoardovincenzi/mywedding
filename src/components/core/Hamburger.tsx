@@ -1,10 +1,10 @@
 import { AiOutlineClose } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { useState } from 'react';
-import Portal from '../../portal/portal.js';
 import ButtonNavbar from './navbar/ButtonNavbar';
 import { languages } from '../../utils/languages.js';
 import { useTranslation } from 'react-i18next';
+import { createPortal } from 'react-dom';
 
 function Hamburger() {
   const { t, i18n } = useTranslation();
@@ -25,10 +25,10 @@ function Hamburger() {
       >
         <AiOutlineMenu className="text-black h-7 w-7" />
       </button>
-      <Portal>
+      {createPortal(
         <div
           id="hamburgerMenu"
-          className={`fixed flex justify-center w-full h-full left-[-100%] ease-in-out duration-300 text-[#fffcf2]
+          className={`fixed z-[1003] top-0 flex justify-center w-full h-full left-[-100%] ease-in-out duration-300 text-[#fffcf2]
           ${openMenu ? 'left-0 bg-black opacity-95' : ''}`}
         >
           <div className="right-3 top-7 absolute">
@@ -97,8 +97,9 @@ function Hamburger() {
               </div>
             </li>
           </ul>
-        </div>
-      </Portal>
+        </div>,
+        document.body
+      )}
     </div>
   );
 }

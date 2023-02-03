@@ -4,14 +4,11 @@ import Routing from './Routing';
 
 function App() {
   return (
-    <>
-      <div id="portal" className="fixed z-[1003] top-0" />
-      <div>
-        <Navbar />
-        <Routing />
-        <Footer />
-      </div>
-    </>
+    <div>
+      <Navbar />
+      <Routing />
+      <Footer />
+    </div>
   );
 }
 
