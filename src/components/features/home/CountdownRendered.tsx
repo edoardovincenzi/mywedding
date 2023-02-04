@@ -20,18 +20,22 @@ const CountdownRendered = ({
 }: CountdownRenderedProps) => {
   if (completed) {
     useEffect(() => {
-      setInterval(() => {
+      const confettiInterval = setInterval(() => {
         confetti({
           particleCount: 100,
           startVelocity: 30,
           spread: 360,
           origin: {
             x: Math.random(),
-            // since they fall down, start a bit higher than random
             y: Math.random() - 0.2,
           },
         });
       }, 1500);
+      document.addEventListener('visibilitychange', (event) => {
+        if (document.visibilityState !== 'visible') {
+          clearInterval(confettiInterval);
+        }
+      });
     }, []);
     return (
       <div

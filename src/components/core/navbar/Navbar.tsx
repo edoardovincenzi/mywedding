@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { languages } from '../../../utils/languages';
 import Hamburger from '../Hamburger';
 import ButtonNavbar from './ButtonNavbar';
@@ -7,6 +7,7 @@ import Logo from '../../../assets/Logo';
 import ReactCountryFlag from 'react-country-flag';
 
 function Navbar() {
+  const { pathname } = useLocation();
   const { t, i18n } = useTranslation();
   return (
     <header
@@ -20,10 +21,26 @@ function Navbar() {
           </Link>
         </div>
         <nav className="max-lg:hidden flex items-center justify-center gap-5 md:basis-3/5">
-          <ButtonNavbar title={t('navBar.home')} href="/home" />
-          <ButtonNavbar title={t('navBar.timeBlock')} href="/time-block" />
-          <ButtonNavbar title={t('navBar.nearMe')} href="/near-me" />
-          <ButtonNavbar title={t('navBar.about')} href="/about" />
+          <ButtonNavbar
+            title={t('navBar.home')}
+            href="/"
+            active={pathname === '/'}
+          />
+          <ButtonNavbar
+            title={t('navBar.timeBlock')}
+            href="/time-block"
+            active={pathname === '/time-block'}
+          />
+          <ButtonNavbar
+            title={t('navBar.nearMe')}
+            href="/near-me"
+            active={pathname === '/near-me'}
+          />
+          <ButtonNavbar
+            title={t('navBar.about')}
+            href="/about"
+            active={pathname === '/about'}
+          />
           <div>
             {Object.keys(languages).map((lng: any) => (
               <button
@@ -36,7 +53,11 @@ function Navbar() {
                 onClick={() => i18n.changeLanguage(lng)}
               >
                 <ReactCountryFlag
-                  className="emojiFlag"
+                  className={`emojiFlag ${
+                    i18n.language === lng
+                      ? 'underline underline-offset-8 decoration-themeColor'
+                      : ''
+                  }`}
                   countryCode={lng.toUpperCase()}
                   style={{
                     fontSize: '2em',

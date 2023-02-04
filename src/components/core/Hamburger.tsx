@@ -6,10 +6,12 @@ import { languages } from '../../utils/languages.js';
 import { useTranslation } from 'react-i18next';
 import { createPortal } from 'react-dom';
 import ReactCountryFlag from 'react-country-flag';
+import { useLocation } from 'react-router-dom';
 
 function Hamburger() {
   const { t, i18n } = useTranslation();
   const [openMenu, setOpenMenu] = useState(false);
+  const { pathname } = useLocation();
 
   const OpenMenu = () => {
     setOpenMenu((old) => !old);
@@ -49,7 +51,11 @@ function Hamburger() {
                 openMenu ? 'animate__fadeInLeft' : ''
               }`}
             >
-              <ButtonNavbar title={t('navBar.home')} href="/home" />
+              <ButtonNavbar
+                title={t('navBar.home')}
+                href="/home"
+                active={pathname === '/'}
+              />
             </li>
             <li
               onClick={OpenMenu}
@@ -57,7 +63,11 @@ function Hamburger() {
                 openMenu ? 'animate__fadeInLeft' : ''
               }`}
             >
-              <ButtonNavbar title={t('navBar.timeBlock')} href="/time-block" />
+              <ButtonNavbar
+                title={t('navBar.timeBlock')}
+                href="/time-block"
+                active={pathname === '/time-block'}
+              />
             </li>
             <li
               onClick={OpenMenu}
@@ -65,7 +75,11 @@ function Hamburger() {
                 openMenu ? 'animate__fadeInLeft' : ''
               }`}
             >
-              <ButtonNavbar title={t('navBar.nearMe')} href="/near-me" />
+              <ButtonNavbar
+                title={t('navBar.nearMe')}
+                href="/near-me"
+                active={pathname === '/near-me'}
+              />
             </li>
             <li
               onClick={OpenMenu}
@@ -73,7 +87,11 @@ function Hamburger() {
                 openMenu ? 'animate__fadeInLeft' : ''
               }`}
             >
-              <ButtonNavbar title={t('navBar.about')} href="/about" />
+              <ButtonNavbar
+                title={t('navBar.about')}
+                href="/about"
+                active={pathname === '/about'}
+              />
             </li>
             <li
               className={`animate__animated ${
@@ -93,7 +111,11 @@ function Hamburger() {
                     onClick={() => i18n.changeLanguage(lng)}
                   >
                     <ReactCountryFlag
-                      className="emojiFlag"
+                      className={`emojiFlag ${
+                        i18n.language === lng
+                          ? 'underline underline-offset-8 decoration-themeColor'
+                          : ''
+                      }`}
                       countryCode={lng.toUpperCase()}
                       style={{
                         fontSize: '2em',
