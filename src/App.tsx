@@ -4,7 +4,7 @@ import Routing from './Routing';
 
 function App() {
   return (
-    <div>
+    <div className="bg-white/90">
       <Navbar />
       <Routing />
       <Footer />
