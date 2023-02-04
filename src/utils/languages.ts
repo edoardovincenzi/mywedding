@@ -1,5 +1,5 @@
 export const languages: any = {
-  en: { nativeName: 'English' },
+  gb: { nativeName: 'English' },
   it: { nativeName: 'Italia' },
   ro: { nativeName: 'Romania' },
 };

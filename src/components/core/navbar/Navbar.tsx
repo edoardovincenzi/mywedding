@@ -4,6 +4,7 @@ import { languages } from '../../../utils/languages';
 import Hamburger from '../Hamburger';
 import ButtonNavbar from './ButtonNavbar';
 import Logo from '../../../assets/Logo';
+import ReactCountryFlag from 'react-country-flag';
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -34,7 +35,15 @@ function Navbar() {
                 type="submit"
                 onClick={() => i18n.changeLanguage(lng)}
               >
-                {languages[lng].nativeName}
+                <ReactCountryFlag
+                  className="emojiFlag"
+                  countryCode={lng.toUpperCase()}
+                  style={{
+                    fontSize: '2em',
+                    lineHeight: '2em',
+                  }}
+                  aria-label={languages[lng].nativeName}
+                />
               </button>
             ))}
           </div>

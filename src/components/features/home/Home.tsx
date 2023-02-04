@@ -21,7 +21,8 @@ const Home = () => {
       }
     >
       <Countdown
-        date={1685196000000}
+        date={Date.now() + 5000}
+        //1685196000000
         renderer={(renderer) => (
           <CountdownRendered
             completed={renderer.completed}

@@ -5,6 +5,7 @@ import ButtonNavbar from './navbar/ButtonNavbar';
 import { languages } from '../../utils/languages.js';
 import { useTranslation } from 'react-i18next';
 import { createPortal } from 'react-dom';
+import ReactCountryFlag from 'react-country-flag';
 
 function Hamburger() {
   const { t, i18n } = useTranslation();
@@ -41,7 +42,7 @@ function Hamburger() {
               <AiOutlineClose className="text-white h-7 w-7" />
             </button>
           </div>
-          <ul className="h-full flex flex-col justify-center items-center gap-24 landscape:max-lg:gap-5">
+          <ul className="h-full flex flex-col justify-center items-center gap-10 landscape:max-lg:gap-3">
             <li
               onClick={OpenMenu}
               className={`animate__animated ${
@@ -91,7 +92,15 @@ function Hamburger() {
                     type="submit"
                     onClick={() => i18n.changeLanguage(lng)}
                   >
-                    {languages[lng].nativeName}
+                    <ReactCountryFlag
+                      className="emojiFlag"
+                      countryCode={lng.toUpperCase()}
+                      style={{
+                        fontSize: '2em',
+                        lineHeight: '2em',
+                      }}
+                      aria-label={languages[lng].nativeName}
+                    />
                   </button>
                 ))}
               </div>
