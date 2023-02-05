@@ -4,7 +4,7 @@ import Routing from './Routing';
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Routing />
       <Footer />
