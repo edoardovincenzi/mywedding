@@ -7,7 +7,7 @@ const MapNearMe = () => {
   return (
     <MapContainer
       center={[45.4, 10.87]}
-      zoom={10}
+      zoom={9}
       scrollWheelZoom={true}
       className=" w-full mx-auto mt-4 rounded-lg !h-[50vh]"
       style={{ height: 'calc(100vh - 80px - 224px)' }}
@@ -64,6 +64,23 @@ const MapNearMe = () => {
           <span className="text-sm flex flex-col">
             <b>Verona</b>
             <a href="#Verona">More info</a>
+          </span>
+        </Tooltip>
+      </Marker>
+      <Marker
+        position={[45.15634436643838, 10.789987553987565]}
+        icon={
+          new Icon({
+            iconUrl: markerIconPng,
+            iconSize: [25, 41],
+            iconAnchor: [20, 13],
+          })
+        }
+      >
+        <Tooltip permanent direction="right" interactive={true}>
+          <span className="text-sm flex flex-col">
+            <b>Mantova</b>
+            <a href="#Mantova">More info</a>
           </span>
         </Tooltip>
       </Marker>

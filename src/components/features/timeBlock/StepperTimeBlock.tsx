@@ -1,4 +1,4 @@
-import { BiChurch } from 'react-icons/bi';
+import { GiCastle } from 'react-icons/gi';
 import { MdOutlineFoodBank } from 'react-icons/md';
 import { GiPartyPopper } from 'react-icons/gi';
 import Step from './Step';
@@ -11,7 +11,7 @@ const StepperTimeBlock = () => {
         when="12:30 - 14:00"
         where="Castello di Valeggio"
         description="Cerimonia, i parcheggi sono li oppure dall'altra parte. Volendo c'è la possibilità di arrivare all'entrata del castello con la macchina e lasciare giù le persone e poi parcheggiare nei parcheggi prima citati."
-        Icon={BiChurch}
+        Icon={GiCastle}
       />
 
       <Step
