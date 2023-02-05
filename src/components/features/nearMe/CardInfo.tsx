@@ -9,7 +9,7 @@ const CardInfo = ({ id, title, description, imgUrl }: CardInfoProps) => {
   return (
     <div
       id={id}
-      className="flex flex-col items-center mt-4 md:h-60  overflow-hidden bg-white border md:w-[100%] lg:w-[49%] border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100"
+      className="flex flex-col items-center mt-4 md:h-60  overflow-hidden bg-white/90 border md:w-[100%] lg:w-[49%] border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100"
     >
       <img
         className="object-cover w-full rounded-t-lg h-60 md:h-full md:w-48 md:rounded-none md:rounded-l-lg"

@@ -5,7 +5,7 @@ import Step from './Step';
 
 const StepperTimeBlock = () => {
   return (
-    <ol className="relative text-gray-500 border-l border-gray-200 m-11">
+    <ol className="relative text-gray-500 border-l border-gray-200 m-11 bg-white/90 rounded-lg">
       <Step
         title="Cerimonia"
         when="12:30 - 14:00"
