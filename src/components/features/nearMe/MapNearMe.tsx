@@ -1,12 +1,11 @@
 import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import { Icon } from 'leaflet';
-import { Link } from 'react-router-dom';
 
 const MapNearMe = () => {
   return (
     <MapContainer
-      center={[45.4, 10.87]}
+      center={[45.3, 10.87]}
       zoom={9}
       scrollWheelZoom={true}
       className=" w-full mx-auto mt-4 rounded-lg !h-[50vh]"
@@ -29,7 +28,7 @@ const MapNearMe = () => {
         <Tooltip permanent direction="right" interactive={true}>
           <span className="text-sm flex flex-col">
             <b>Borghetto</b>
-            <a href="#Borghetto">More info</a>
+            <a href="#Valeggio">More info</a>
           </span>
         </Tooltip>
       </Marker>
@@ -45,7 +44,7 @@ const MapNearMe = () => {
       >
         <Tooltip permanent direction="right" interactive={true}>
           <span className="text-sm flex flex-col">
-            <b>Peschiera del Garda</b>
+            <b>Peschiera</b>
             <a href="#Peschiera">More info</a>
           </span>
         </Tooltip>

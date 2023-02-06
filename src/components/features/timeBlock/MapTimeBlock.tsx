@@ -27,7 +27,11 @@ const MapTimeBlock = () => {
         <Tooltip permanent direction="right" interactive>
           <span className="text-sm flex flex-col justify-start items-center">
             <b>Villa corte Peron</b>
-            <a href="https://goo.gl/maps/ryMi8jHG5YK3KEzw5">
+            <a
+              className="cursor-pointer"
+              target="_blank"
+              href="https://goo.gl/maps/ryMi8jHG5YK3KEzw5"
+            >
               Vai a google maps
             </a>
           </span>
@@ -46,7 +50,11 @@ const MapTimeBlock = () => {
         <Tooltip permanent direction="right" interactive>
           <span className="text-sm flex flex-col justify-start items-start">
             <b>Castello di Valeggio sul Mincio</b>
-            <a href="https://goo.gl/maps/5EBJj5aKRVi9vN5F7">
+            <a
+              className="cursor-pointer"
+              target="_blank"
+              href="https://goo.gl/maps/5EBJj5aKRVi9vN5F7"
+            >
               Vai a google maps
             </a>
           </span>

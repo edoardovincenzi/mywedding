@@ -38,19 +38,13 @@ const CountdownRendered = ({
       });
     }, []);
     return (
-      <div
-        className="flex justify-center items-center pointer-events-none"
-        style={{ height: 'calc(100vh - 80px)' }}
-      >
+      <div className="flex justify-center items-center pointer-events-none w-full h-[30vh]">
         <Completionist />
       </div>
     );
   } else {
     return (
-      <div
-        className="flex justify-center items-center "
-        style={{ height: 'calc(100vh - 80px)' }}
-      >
+      <div className="flex justify-center items-center ">
         <section className="grid grid-rows-2 grid-flow-col gap-3 p-6 w-full">
           <TimeBox unitName="Days" unit={days} />
           <TimeBox unitName="Minutes" unit={minutes} />

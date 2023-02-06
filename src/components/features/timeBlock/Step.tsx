@@ -2,7 +2,7 @@ import { IconType } from 'react-icons';
 
 interface StepProps {
   title: string;
-  where: string;
+  where: string | JSX.Element;
   when: string;
   description: string;
   Icon: IconType;

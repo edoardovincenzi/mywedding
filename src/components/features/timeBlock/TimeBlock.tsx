@@ -1,4 +1,3 @@
-import React from 'react';
 import TitleSection from '../../shared/TitleSection';
 import WrapperContainer from '../../shared/WrapperContainer';
 import MapTimeBlock from './MapTimeBlock';

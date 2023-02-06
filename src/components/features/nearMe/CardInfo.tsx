@@ -1,28 +1,24 @@
 interface CardInfoProps {
   id: string;
-  title: string;
-  description: string;
+  title: string | JSX.Element;
   imgUrl: string;
 }
 
-const CardInfo = ({ id, title, description, imgUrl }: CardInfoProps) => {
+const CardInfo = ({ id, title, imgUrl }: CardInfoProps) => {
   return (
-    <div
+    <figure
       id={id}
-      className="flex flex-col items-center mt-4 md:h-60  overflow-hidden bg-white/90 border md:w-[100%] lg:w-[49%] border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100"
+      className="relative mt-4 overflow-hidden bg-white/70 border border-gray-200 rounded-lg md:w-[100%] lg:w-[49%]"
     >
       <img
-        className="object-cover w-full rounded-t-lg h-60 md:h-full md:w-48 md:rounded-none md:rounded-l-lg"
+        className="object-cover w-full rounded-t-lg md:rounded-none md:rounded-l-lg h-full"
         src={imgUrl}
-        alt={title}
+        alt={id}
       />
-      <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-          {title}
-        </h5>
-        <p className="mb-3 font-normal text-gray-700">{description}</p>
-      </div>
-    </div>
+      <figcaption className="absolute bottom-0 w-full bg-white/70 p-3 h-18">
+        {title}
+      </figcaption>
+    </figure>
   );
 };
 
