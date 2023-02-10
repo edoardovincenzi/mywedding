@@ -17,36 +17,31 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
     resources: {
-      gb: {
-        translation: {
-          // here we will place our translations...
-          navBar: {
-            home: 'HOME',
-            timeBlock: 'TIME BLOCK',
-            nearMe: 'NEAR ME',
-            about: 'ABOUT',
-          },
-        },
-      },
       it: {
         translation: {
-          // here we will place our translations...
           navBar: {
             home: 'HOME',
-            timeBlock: 'TIME BLOCK',
-            nearMe: 'VICINI A ME',
-            about: 'CONTATTI',
+            timeBlock: "L'EVENTO",
+            nearMe: 'PUNTI DI INTERESSE',
+            about: 'ABOUT US',
+          },
+          event: {
+            cerimony: 'Cerimonia',
+            whereCerimony: 'Castello Scaligero di Valeggio sul Mincio (VR)',
           },
         },
       },
       ro: {
         translation: {
-          // here we will place our translations...
           navBar: {
             home: 'HOME',
-            timeBlock: 'TIME BLOCK',
-            nearMe: 'VICINI A ME',
-            about: 'CONTATTI',
+            timeBlock: "L'EVENTO",
+            nearMe: 'PUNTI DI INTERESSE',
+            about: 'ABOUT US',
+          },
+          event: {
+            cerimony: 'Cerimonia',
+            whereCerimony: 'Castello Scaligero di Valeggio sul Mincio (VR)',
           },
         },
       },

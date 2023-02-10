@@ -8,9 +8,9 @@ const NearMe = () => {
     <WrapperContainer>
       <>
         <div className="h-[1px]"></div>
-        <TitleSection id="NearMe" title="VICINO A ME" />
+        <TitleSection id="NearMe" title="VALEGGIO SUL MINCIO E DINTORNI" />
         <MapNearMe />
-        <TitleSection id="NearMe" title="PUNTI DI INTERESSE" />
+        {/* <TitleSection id="NearMe" title="PUNTI DI INTERESSE" /> */}
         <div className="flex justify-center gap-2 max-sm:gap-y-2 flex-wrap">
           <CardInfo
             id="Verona"

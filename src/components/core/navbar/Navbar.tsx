@@ -14,13 +14,13 @@ function Navbar() {
       id="navbar"
       className={`w-full fixed py-4 px-3 top-0 h-20 bg-white shadow-custom ease-in-out duration-300 max-sm:px-10 z-[1001]`}
     >
-      <div className="h-full flex justify-between items-center">
+      <div className="h-full w-full flex justify-between items-center">
         <div className="w-fit">
           <Link to="/home">
             <Logo />
           </Link>
         </div>
-        <nav className="max-lg:hidden flex items-center justify-center gap-5 md:basis-3/5">
+        <nav className="max-lg:hidden flex items-center justify-center gap-5 md:basis-3/5 w-full  h-max">
           <ButtonNavbar
             title={t('navBar.home')}
             href="/"
@@ -41,7 +41,7 @@ function Navbar() {
             href="/about"
             active={pathname === '/about'}
           />
-          <div>
+          <div className="w-[8vw]">
             {Object.keys(languages).map((lng: any) => (
               <button
                 key={lng}

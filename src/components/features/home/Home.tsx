@@ -3,6 +3,7 @@ import Countdown from 'react-countdown';
 import WrapperContainer from '../../shared/WrapperContainer';
 import CountdownRendered from './CountdownRendered';
 import confetti from 'canvas-confetti';
+import Firm from '../../../assets/Firm';
 
 const Home = () => {
   return (
@@ -21,29 +22,24 @@ const Home = () => {
       }
     >
       <div
-        className="flex flex-col items-center justify-center h-full w-full"
+        className="flex flex-col items-center justify-center h-full w-[full]"
         style={{ minHeight: 'calc(100vh - 80px)' }}
       >
-        <h1
-          style={{ fontFamily: 'Savoye LET', fontSize: '64px' }}
-          className="bg-white/90 rounded-lg text-center mt-8"
-        >
-          Matrimonio di
-          <br />
-          Ylenia & Marian
-        </h1>
-        <Countdown
-          date={1685196000000}
-          renderer={(renderer) => (
-            <CountdownRendered
-              completed={renderer.completed}
-              hours={renderer.hours}
-              minutes={renderer.minutes}
-              seconds={renderer.seconds}
-              days={renderer.days}
-            />
-          )}
-        />
+        <div className="w-[80%] flex flex-col justify-center items-center">
+          <Firm />
+          <Countdown
+            date={1685196000000}
+            renderer={(renderer) => (
+              <CountdownRendered
+                completed={renderer.completed}
+                hours={renderer.hours}
+                minutes={renderer.minutes}
+                seconds={renderer.seconds}
+                days={renderer.days}
+              />
+            )}
+          />
+        </div>
       </div>
     </WrapperContainer>
   );
