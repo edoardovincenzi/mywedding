@@ -1,8 +1,10 @@
 import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import { Icon } from 'leaflet';
+import { useTranslation } from 'react-i18next';
 
 const MapNearMe = () => {
+  const { t } = useTranslation();
   return (
     <MapContainer
       center={[45.3, 10.87]}
@@ -27,8 +29,8 @@ const MapNearMe = () => {
       >
         <Tooltip permanent direction="right" interactive={true}>
           <span className="text-sm flex flex-col">
-            <b>Borghetto</b>
-            <a href="#Valeggio">More info</a>
+            <b>{t('nearMe.mapValeggio')}</b>
+            <a href="#Valeggio">{t('nearMe.mapMoreInfo')}</a>
           </span>
         </Tooltip>
       </Marker>
@@ -44,8 +46,8 @@ const MapNearMe = () => {
       >
         <Tooltip permanent direction="right" interactive={true}>
           <span className="text-sm flex flex-col">
-            <b>Peschiera</b>
-            <a href="#Peschiera">More info</a>
+            <b>{t('nearMe.mapPeschiera')}</b>
+            <a href="#Peschiera">{t('nearMe.mapMoreInfo')}</a>
           </span>
         </Tooltip>
       </Marker>
@@ -61,8 +63,8 @@ const MapNearMe = () => {
       >
         <Tooltip permanent direction="right" interactive={true}>
           <span className="text-sm flex flex-col">
-            <b>Verona</b>
-            <a href="#Verona">More info</a>
+            <b>{t('nearMe.mapVerona')}</b>
+            <a href="#Verona">{t('nearMe.mapMoreInfo')}</a>
           </span>
         </Tooltip>
       </Marker>
@@ -78,8 +80,8 @@ const MapNearMe = () => {
       >
         <Tooltip permanent direction="right" interactive={true}>
           <span className="text-sm flex flex-col">
-            <b>Mantova</b>
-            <a href="#Mantova">More info</a>
+            <b>{t('nearMe.mapMantova')}</b>
+            <a href="#Mantova">{t('nearMe.mapMoreInfo')}</a>
           </span>
         </Tooltip>
       </Marker>

@@ -1,8 +1,10 @@
 import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet';
 import markerIconPng from 'leaflet/dist/images/marker-icon.png';
 import { Icon } from 'leaflet';
+import { useTranslation } from 'react-i18next';
 
 const MapTimeBlock = () => {
+  const { t } = useTranslation();
   return (
     <MapContainer
       center={[45.3, 11]}
@@ -26,13 +28,13 @@ const MapTimeBlock = () => {
       >
         <Tooltip permanent direction="right" interactive>
           <span className="text-sm flex flex-col justify-start items-center">
-            <b>Villa corte Peron</b>
+            <b>{t('event.whereMapVilla')}</b>
             <a
               className="cursor-pointer"
               target="_blank"
               href="https://goo.gl/maps/ryMi8jHG5YK3KEzw5"
             >
-              Vai a google maps
+              {t('event.goToMaps')}
             </a>
           </span>
         </Tooltip>
@@ -49,13 +51,13 @@ const MapTimeBlock = () => {
       >
         <Tooltip permanent direction="right" interactive>
           <span className="text-sm flex flex-col justify-start items-start">
-            <b>Castello di Valeggio sul Mincio</b>
+            <b>{t('event.whereMapCastel')}</b>
             <a
               className="cursor-pointer"
               target="_blank"
               href="https://goo.gl/maps/5EBJj5aKRVi9vN5F7"
             >
-              Vai a google maps
+              {t('event.goToMaps')}
             </a>
           </span>
         </Tooltip>

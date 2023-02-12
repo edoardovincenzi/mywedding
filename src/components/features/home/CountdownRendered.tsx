@@ -1,5 +1,6 @@
 import confetti from 'canvas-confetti';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import Completionist from './Completionist';
 import { TimeBox } from './CountdownRendered/TimeBox';
 
@@ -18,6 +19,7 @@ const CountdownRendered = ({
   seconds,
   completed,
 }: CountdownRenderedProps) => {
+  const { t } = useTranslation();
   if (completed) {
     useEffect(() => {
       const confettiInterval = setInterval(() => {
@@ -46,10 +48,10 @@ const CountdownRendered = ({
     return (
       <div className="flex justify-center items-center ">
         <section className="grid grid-rows-2 grid-flow-col gap-3 p-6 w-full">
-          <TimeBox unitName="Days" unit={days} />
-          <TimeBox unitName="Minutes" unit={minutes} />
-          <TimeBox unitName="Hours" unit={hours} />
-          <TimeBox unitName="Seconds" unit={seconds} />
+          <TimeBox unitName={t('home.days')} unit={days} />
+          <TimeBox unitName={t('home.minutes')} unit={minutes} />
+          <TimeBox unitName={t('home.hours')} unit={hours} />
+          <TimeBox unitName={t('home.seconds')} unit={seconds} />
         </section>
       </div>
     );

@@ -1,6 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import { it_language } from './assets/language/it';
+import { ro_language } from './assets/language/ro';
 
 i18n
   // detect user language
@@ -18,32 +20,10 @@ i18n
     },
     resources: {
       it: {
-        translation: {
-          navBar: {
-            home: 'HOME',
-            timeBlock: "L'EVENTO",
-            nearMe: 'PUNTI DI INTERESSE',
-            about: 'ABOUT US',
-          },
-          event: {
-            cerimony: 'Cerimonia',
-            whereCerimony: 'Castello Scaligero di Valeggio sul Mincio (VR)',
-          },
-        },
+        translation: it_language,
       },
       ro: {
-        translation: {
-          navBar: {
-            home: 'HOME',
-            timeBlock: "L'EVENTO",
-            nearMe: 'PUNTI DI INTERESSE',
-            about: 'ABOUT US',
-          },
-          event: {
-            cerimony: 'Cerimonia',
-            whereCerimony: 'Castello Scaligero di Valeggio sul Mincio (VR)',
-          },
-        },
+        translation: ro_language,
       },
     },
   });

@@ -1,21 +1,21 @@
 import { useTranslation } from 'react-i18next';
 import TitleSection from '../../shared/TitleSection';
 import WrapperContainer from '../../shared/WrapperContainer';
-import MapTimeBlock from './MapTimeBlock';
-import StepperTimeBlock from './StepperTimeBlock';
+import MapEvent from './MapEvent';
+import StepperEvent from './StepperEvent';
 
-const TimeBlock = () => {
+const Event = () => {
   const { t } = useTranslation();
   return (
     <WrapperContainer>
       <>
         <div className="h-[1px]"></div>
-        <TitleSection id="NearMe" title={t('navBar.timeBlock')} />
-        <MapTimeBlock />
-        <StepperTimeBlock />
+        <TitleSection id="NearMe" title={t('event.title')} />
+        <MapEvent />
+        <StepperEvent />
       </>
     </WrapperContainer>
   );
 };
 
-export default TimeBlock;
+export default Event;

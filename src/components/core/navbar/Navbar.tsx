@@ -27,9 +27,9 @@ function Navbar() {
             active={pathname === '/'}
           />
           <ButtonNavbar
-            title={t('navBar.timeBlock')}
-            href="/time-block"
-            active={pathname === '/time-block'}
+            title={t('navBar.event')}
+            href="/event"
+            active={pathname === '/event'}
           />
           <ButtonNavbar
             title={t('navBar.nearMe')}
