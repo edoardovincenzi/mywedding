@@ -1,4 +1,4 @@
-export const it_language = {
+export const ro_language = {
   navBar: {
     home: 'HOME',
     event: "L'EVENTO",
