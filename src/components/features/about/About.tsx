@@ -9,6 +9,9 @@ const About = () => {
       <>
         <div className="h-[1px]"></div>
         <TitleSection id="AboutUs" title={t('aboutUs.title')} />
+        <p>{t('about.text')}</p>
+        <img className="w-full h-[40vh]" src="/images/world.png"/>
+        <p>{t("about.poem")}</p>
       </>
     </WrapperContainer>
   );
