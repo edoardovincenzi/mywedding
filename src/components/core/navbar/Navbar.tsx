@@ -36,11 +36,11 @@ function Navbar() {
             href="/near-me"
             active={pathname === '/near-me'}
           />
-          <ButtonNavbar
+          {/* <ButtonNavbar
             title={t('navBar.about')}
             href="/about"
             active={pathname === '/about'}
-          />
+          /> */}
           <div className="w-[8vw]">
             {Object.keys(languages).map((lng: any) => (
               <button

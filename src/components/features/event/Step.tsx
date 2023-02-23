@@ -1,3 +1,4 @@
+import { DefaultTFuncReturn } from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { IconType } from 'react-icons';
 
@@ -5,7 +6,7 @@ interface StepProps {
   title: string;
   where: string | JSX.Element;
   when: string;
-  description: string;
+  description: string | JSX.Element | DefaultTFuncReturn;
   Icon: IconType;
 }
 

@@ -2,7 +2,7 @@ import { GiCastle } from 'react-icons/gi';
 import { MdOutlineFoodBank } from 'react-icons/md';
 import { GiPartyPopper } from 'react-icons/gi';
 import Step from './Step';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 const StepperEvent = () => {
   const { t } = useTranslation();
@@ -20,7 +20,13 @@ const StepperEvent = () => {
             {t('event.whereCerimony')}
           </a>
         }
-        description={t('event.descriptionCerimony')}
+        description={
+          <Trans
+            i18nKey="event.descriptionCerimony"
+            t={t}
+            components={[<br></br>]}
+          />
+        }
         Icon={GiCastle}
       />
 
