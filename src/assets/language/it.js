@@ -70,16 +70,16 @@ export const it_language = {
   },
   aboutUs: {
     title: 'ABOUT US',
-    text: 'Da quando siamo nati ad oggi abbiamo visitato 31 paesi, pari solo al 12% della superficie terrestre!
+    text: `Da quando siamo nati ad oggi abbiamo visitato 31 paesi, pari solo al 12% della superficie terrestre!
       Viaggiare è una delle nostre passioni più forti! 
       Viaggiare per noi significa emozione e scoperta! 
       Viaggiare è organizzazione e improvvisazione! 
       Viaggiare insieme è condivisione e flessibilità! 
       Uno dei nostri obiettivi è scoprire insieme il mondo! 
-      Dalla mappa puoi vedere in viola tutte le prossime mete in cui vorremmo andare e se vorrai contribuire alla realizzazione di questo sogno, te ne saremo grati!',
-    poem: 'Viaggiare è come il vento, che ti porta dove vuole se sai seguirlo, che ti spinge avanti se sai imbrigliarlo,e può condurti a perdere la strada ma anche farti scoprire luoghi remoti, che non avresti creduto esistessero. 
+      Dalla mappa puoi vedere in viola tutte le prossime mete in cui vorremmo andare e se vorrai contribuire alla realizzazione di questo sogno, te ne saremo grati!`,
+    poem: `Viaggiare è come il vento, che ti porta dove vuole se sai seguirlo, che ti spinge avanti se sai imbrigliarlo,e può condurti a perdere la strada ma anche farti scoprire luoghi remoti, che non avresti creduto esistessero. 
       Viaggiare è come il sale, è come le spezie, cambia il sapore di tutto ciò che tocchi, ti lascia profumi e fragranze impigliate nel cuore.
       Viaggiare è come l’amore. Una grazia, un volo, qualcosa che non puoi prevedere.
-      (Rula Jebreal)'
+      (Rula Jebreal)`
   },
 };
