@@ -81,7 +81,7 @@ function Hamburger() {
                 active={pathname === '/near-me'}
               />
             </li>
-            {/* <li
+            <li
               onClick={OpenMenu}
               className={`animate__animated ${
                 openMenu ? 'animate__fadeInLeft' : ''
@@ -92,7 +92,7 @@ function Hamburger() {
                 href="/about"
                 active={pathname === '/about'}
               />
-            </li> */}
+            </li>
             <li
               className={`animate__animated ${
                 openMenu ? 'animate__fadeInLeft' : ''
