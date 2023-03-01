@@ -46,4 +46,18 @@ export const ro_language = {
     imgTitleMantova: 'Mantova',
     imgDescriptionMantova: 'Orașul renascentist ce nu te așteptai să vezi.',
   },
+  aboutUs: {
+    title: 'DESPRE NOI',
+    text: `De când ne-am născut am vizitat 31 de țări, echivalentul a doar 12% din suprafața pământului!<0></0> <0></0>
+    Călătoriile sunt una dintre pasiunile noastre cele mai puternice!<0></0> <0></0>
+    Călătorind pentru noi înseamnă emoție și descoperire!<0></0> <0></0>
+    Călătoria înseamnă organizare și improvizație!<0></0> <0></0>
+    Călătorind împreună înseamnă împărtășire și flexibilitate!<0></0> <0></0>
+    Unul dintre obiectivele noastre este să descoperim lumea împreună!<0></0>
+    De pe hartă puteți vedea colorat în violet toate destinațiile următoare în care am dori să mergem și dacă doriți să contribui la realizarea acestui vis, vă vom fi recunoscători!`,
+    poem: `Călătoria este ca si vântul, te duce oriunde dorește dacă știi să-l urmezi, te împinge înainte dacă știi să-l exploatezi, te și poate duce să-ți pierzi drumul dar și să te facă să descoperi locuri îndepărtate pe care nu ai crezut niciodata că există.<0></0> <0></0> 
+    Călătoria este ca sarea, este ca mirodeniile, schimbă gustul a tot ce atingi, lasă parfumuri și arome ce iți raman în inima ta.<0></0> <0></0> 
+    Călătoria este ca dragostea. Un har, un zbor, ceva ce nu poți prezice.<0></0> <0></0> 
+    <1>(Rula Jebreal)</1>`,
+  },
 };

@@ -41,7 +41,7 @@ function Navbar() {
             href="/about"
             active={pathname === '/about'}
           />
-          <div className="w-[8vw]">
+          <div className="w-[12vw]">
             {Object.keys(languages).map((lng: any) => (
               <button
                 key={lng}
