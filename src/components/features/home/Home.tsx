@@ -28,7 +28,7 @@ const Home = () => {
         <div className="w-[80%] flex flex-col justify-center items-center">
           <Firm />
           <Countdown
-            date={Date.now() + 5000}
+            date={1685196000000}
             renderer={(renderer) => (
               <CountdownRendered
                 completed={renderer.completed}
