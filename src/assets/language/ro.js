@@ -50,8 +50,7 @@ export const ro_language = {
     title: 'LISTA CADOURILOR',
     text: `De când ne-am născut am vizitat 31 de țări, echivalentul a doar 12% din suprafața pământului!<0></0> <0></0>
     Călătoriile sunt una dintre pasiunile noastre cele mai puternice!<0></0> <0></0>
-    Călătorind pentru noi înseamnă emoție și descoperire!<0></0> <0></0>
-    Călătoria înseamnă organizare și improvizație!<0></0> <0></0>
+    Călătorind pentru noi înseamnă emoții, descoperire, organizare și improvizație!<0></0> <0></0>
     Călătorind împreună înseamnă împărtășire și flexibilitate!<0></0> <0></0>
     Unul dintre obiectivele noastre este să descoperim lumea împreună!<0></0>
     De pe hartă puteți vedea colorat în violet următoarele destinațiile următoare în care am dori să mergem.`,
