@@ -80,11 +80,11 @@ export const it_language = {
       Uno dei nostri obiettivi è scoprire insieme il mondo! E dalla mappa puoi vedere in viola tutte le prossime mete in cui vorremmo andare e se vorrai contribuire alla realizzazione di questo sogno, te ne saremo grati!`,
     titleTextLink: 'Lista nozze',
     textLink: `Il regalo più grande sarà averti con noi il giorno del nostro matrimonio! Ma se vorrai contribuire alla realizzazione del nostro sogno alla scoperta del mondo, te ne saremo grati!<0></0> <0></0>
-      Le buste son sempre ben accette, altrimenti puoi effettuare un bonifico:<0></0>
-      Intestatari: Marian Demian e Ylenia Vincenzi <0></0> <0></0>
-      Banca: ING <0></0> <0></0>
-      IBAN: IT29Z0347501605CC011656326<0></0> <0></0>
-      BIC: INGBITD1`,
+      Le buste son sempre ben accette, altrimenti puoi effettuare un bonifico.<0></0><0></0>
+      <1>Intestatari:</1> Marian Demian e Ylenia Vincenzi <0></0>
+      <1>Banca:</1> ING <0></0>
+      <1>IBAN:</1>  IT29Z0347501605CC011656326<0></0>
+      <1>BIC:</1>  INGBITD1`,
     poem: `Viaggiare è come il vento, che ti porta dove vuole se sai seguirlo, che ti spinge avanti se sai imbrigliarlo,e può condurti a perdere la strada ma anche farti scoprire luoghi remoti, che non avresti creduto esistessero. <0></0> <0></0> 
       Viaggiare è come il sale, è come le spezie, cambia il sapore di tutto ciò che tocchi, ti lascia profumi e fragranze impigliate nel cuore.<0></0> <0></0> 
       Viaggiare è come l’amore. Una grazia, un volo, qualcosa che non puoi prevedere.<0></0> <0></0> 

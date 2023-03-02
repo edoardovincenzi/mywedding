@@ -17,13 +17,19 @@ const WeddingList = () => {
           className="w-[80vw] object-contain my-3 rounded-lg"
           src="/images/world.png"
         />
-        <p className="bg-white/90 italic px-2 rounded-lg">
+        <p
+          className="bg-white/90 px-2 rounded-lg text-lg"
+          style={{ fontFamily: "'Berkshire Swash', cursive" }}
+        >
           <Trans
             i18nKey="weddingList.poem"
             t={t}
             components={[
               <br></br>,
-              <span className="text-right block w-full"></span>,
+              <span
+                className="text-right block w-full"
+                style={{ fontFamily: "'Berkshire Swash', cursive" }}
+              ></span>,
             ]}
           />
         </p>

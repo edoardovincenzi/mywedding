@@ -57,11 +57,11 @@ export const ro_language = {
     De pe hartă puteți vedea colorat în violet toate destinațiile următoare în care am dori să mergem și dacă doriți să contribui la realizarea acestui vis, vă vom fi recunoscători!`,
     titleTextLink: 'Lista cadourilor',
     textLink: `Cel mai mare cadou va fi să te avem alături de noi în ziua nunții noastre dar dacă vrei să contribui la realizarea visului nostru de a descoperi lumea, îți vom fi recunoscători!<0></0> <0></0>
-    Plicurile sunt întotdeauna binevenite, altfel puteți face un transfer bancar:<0></0>
-    Proprietari: Marian Demian și Ylenia Vincenzi <0></0> <0></0>
-    Banca: ING <0></0> <0></0>
-    IBAN: IT29Z0347501605CC011656326<0></0> <0></0>
-    BIC: INGBITD1`,
+    Plicurile sunt întotdeauna binevenite, altfel puteți face un transfer bancar.<0></0><0></0>
+    <1>Proprietari:</1> Marian Demian și Ylenia Vincenzi <0></0> 
+    <1>Banca:</1> ING <0></0>
+    <1>IBAN:</1> IT29Z0347501605CC011656326<0></0>
+    <1>BIC:</1> INGBITD1`,
     poem: `Călătoria este ca si vântul, te duce oriunde dorește dacă știi să-l urmezi, te împinge înainte dacă știi să-l exploatezi, te și poate duce să-ți pierzi drumul dar și să te facă să descoperi locuri îndepărtate pe care nu ai crezut niciodata că există.<0></0> <0></0> 
     Călătoria este ca sarea, este ca mirodeniile, schimbă gustul a tot ce atingi, lasă parfumuri și arome ce iți raman în inima ta.<0></0> <0></0> 
     Călătoria este ca dragostea. Un har, un zbor, ceva ce nu poți prezice.<0></0> <0></0> 

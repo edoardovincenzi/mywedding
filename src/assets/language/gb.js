@@ -58,11 +58,11 @@ export const gb_language = {
     One of our goals is to discover the world together! And from the map you can see in purple all the next destinations we would like to visit and if you want to contribute to the realisation of this dream, we will be grateful to you!`,
     titleTextLink: 'Wedding list',
     textLink: `The greatest gift will be having you with us on our wedding day! If you want to contribute to achieve our dream of discovering the world, we will be grateful to you!<0></0> <0></0>
-    Cash are always welcome, otherwise you can make a bank transfer:<0></0>
-    Account holder: Marian Demian and Ylenia Vincenzi <0></0> <0></0>
-    Banca: ING <0></0> <0></0>
-    IBAN: IT29Z0347501605CC011656326<0></0> <0></0>
-    BIC: INGBITD1`,
+    Cash are always welcome, otherwise you can make a bank transfer.<0></0><0></0>
+    <1>Account holder:</1> Marian Demian and Ylenia Vincenzi <0></0> 
+    <1>Banca:</1> ING <0></0>
+    <1>IBAN:</1> IT29Z0347501605CC011656326<0></0>
+    <1>BIC:</1> INGBITD1`,
     poem: `Traveling is like the wind, which takes you wherever it wants if you know how to follow it, which pushes you forward if you know how to harness it, and it can lead you to lose your way but also make you discover remote places that you would not have believed existed.<0></0> <0></0>
     Traveling is like salt, it's like spices, it changes the taste of everything you touch, it leaves perfumes and fragrances entangled in your heart.<0></0> <0></0>
     Traveling is like love. A grace, a flight, something you cannot foresee.<0></0> <0></0>
