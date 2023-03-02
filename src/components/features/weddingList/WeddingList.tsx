@@ -2,7 +2,6 @@ import { Trans, useTranslation } from 'react-i18next';
 import TitleSection from '../../shared/TitleSection';
 import WrapperContainer from '../../shared/WrapperContainer';
 import Donation from './Donation';
-
 const WeddingList = () => {
   const { t } = useTranslation();
   return (
