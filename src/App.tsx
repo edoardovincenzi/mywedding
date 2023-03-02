@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <div id="bg" className="fixed inset-0 h-screen w-screen -z-[1]" />
       <Routing />
       <Footer />
     </div>
