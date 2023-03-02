@@ -88,9 +88,9 @@ function Hamburger() {
               }`}
             >
               <ButtonNavbar
-                title={t('navBar.about')}
-                href="/about"
-                active={pathname === '/about'}
+                title={t('navBar.weddingList')}
+                href="/wedding-list"
+                active={pathname === '/wedding-list'}
               />
             </li>
             <li

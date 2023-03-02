@@ -3,7 +3,7 @@ export const gb_language = {
     home: `HOME`,
     event: `THE EVENT`,
     nearMe: `POINTS OF INTEREST`,
-    about: `ABOUT US`,
+    weddingList: `WEDDING LIST`,
   },
   home: {
     days: `Days`,
@@ -48,15 +48,20 @@ export const gb_language = {
     imgTitleMantova: `Mantova`,
     imgDescriptionMantova: `The renaissance city you've never heard of.`,
   },
-  aboutUs: {
-    title: 'ABOUT US',
+  weddingList: {
+    title: 'WEDDING LIST',
     text: `Since we were born we have visited 31 countries, that is only 12% of the Earth's surface!<0></0> <0></0>
     Travelling is one of our strongest passions!<0></0> <0></0>
     Travelling for us means emotion and discovery!<0></0> <0></0>
     Travelling is organisation and improvisation!<0></0> <0></0>
     Travelling together is sharing and flexibility!<0></0> <0></0>
-    One of our goals is to discover the world together!<0></0>
-    From the map you can see in purple all the next destinations we would like to visit and if you want to contribute to the realisation of this dream, we will be grateful to you!`,
+    One of our goals is to discover the world together! And from the map you can see in purple all the next destinations we would like to visit and if you want to contribute to the realisation of this dream, we will be grateful to you!`,
+    textLink: `The greatest gift will be having you with us on our wedding day! If you want to contribute to achieve our dream of discovering the world, we will be grateful to you!<0></0> <0></0>
+    Cash are always welcome, otherwise you can make a bank transfer:<0></0>
+    Account holder: Marian Demian and Ylenia Vincenzi <0></0> <0></0>
+    Banca: ING <0></0> <0></0>
+    IBAN: IT29Z0347501605CC011656326<0></0> <0></0>
+    BIC: INGBITD1`,
     poem: `Traveling is like the wind, which takes you wherever it wants if you know how to follow it, which pushes you forward if you know how to harness it, and it can lead you to lose your way but also make you discover remote places that you would not have believed existed.<0></0> <0></0>
     Traveling is like salt, it's like spices, it changes the taste of everything you touch, it leaves perfumes and fragrances entangled in your heart.<0></0> <0></0>
     Traveling is like love. A grace, a flight, something you cannot foresee.<0></0> <0></0>

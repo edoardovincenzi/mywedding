@@ -24,7 +24,7 @@ const StepperEvent = () => {
           <Trans
             i18nKey="event.descriptionCerimony"
             t={t}
-            components={[<br></br>]}
+            components={[<br></br>, <span className="ml-3 text-sm"></span>]}
           />
         }
         Icon={GiCastle}

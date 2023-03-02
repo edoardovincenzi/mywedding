@@ -2,20 +2,20 @@ import { Trans, useTranslation } from 'react-i18next';
 import TitleSection from '../../shared/TitleSection';
 import WrapperContainer from '../../shared/WrapperContainer';
 
-const About = () => {
+const WeddingList = () => {
   const { t } = useTranslation();
   return (
     <WrapperContainer classNameWrapper="max-w-[80%]">
       <>
         <div className="h-[1px]"></div>
-        <TitleSection id="AboutUs" title={t('aboutUs.title')} />
+        <TitleSection id="weddingList" title={t('weddingList.title')} />
         <p className="bg-white/90">
-          <Trans i18nKey="aboutUs.text" t={t} components={[<br></br>]} />
+          <Trans i18nKey="weddingList.text" t={t} components={[<br></br>]} />
         </p>
         <img className="w-[80vw] object-contain my-3" src="/images/world.png" />
         <p className="bg-white/90 italic">
           <Trans
-            i18nKey="aboutUs.poem"
+            i18nKey="weddingList.poem"
             t={t}
             components={[
               <br></br>,
@@ -28,4 +28,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default WeddingList;

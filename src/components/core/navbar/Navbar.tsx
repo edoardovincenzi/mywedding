@@ -37,9 +37,9 @@ function Navbar() {
             active={pathname === '/near-me'}
           />
           <ButtonNavbar
-            title={t('navBar.about')}
-            href="/about"
-            active={pathname === '/about'}
+            title={t('navBar.weddingList')}
+            href="/wedding-list"
+            active={pathname === '/wedding-list'}
           />
           <div className="w-[12vw]">
             {Object.keys(languages).map((lng: any) => (

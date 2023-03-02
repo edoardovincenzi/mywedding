@@ -20,8 +20,8 @@ const CountdownRendered = ({
   completed,
 }: CountdownRenderedProps) => {
   const { t } = useTranslation();
-  if (completed) {
-    useEffect(() => {
+  useEffect(() => {
+    if (completed) {
       const confettiInterval = setInterval(() => {
         confetti({
           particleCount: 100,
@@ -38,7 +38,9 @@ const CountdownRendered = ({
           clearInterval(confettiInterval);
         }
       });
-    }, []);
+    }
+  }, [completed]);
+  if (completed) {
     return (
       <div className="flex justify-center items-center pointer-events-none w-full h-[30vh]">
         <Completionist />

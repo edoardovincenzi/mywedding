@@ -3,7 +3,7 @@ export const ro_language = {
     home: 'HOME',
     event: 'EVENIMENTUL',
     nearMe: 'PUNCTE DE INTERES',
-    about: 'DESPRE NOI',
+    weddingList: 'LISTA CADOURILOT',
   },
   home: { days: 'Zile', hours: 'Ore', minutes: 'Minute', seconds: 'Secunde' },
   event: {
@@ -46,8 +46,8 @@ export const ro_language = {
     imgTitleMantova: 'Mantova',
     imgDescriptionMantova: 'Orașul renascentist ce nu te așteptai să vezi.',
   },
-  aboutUs: {
-    title: 'DESPRE NOI',
+  weddingList: {
+    title: 'LISTA CADOURILOT',
     text: `De când ne-am născut am vizitat 31 de țări, echivalentul a doar 12% din suprafața pământului!<0></0> <0></0>
     Călătoriile sunt una dintre pasiunile noastre cele mai puternice!<0></0> <0></0>
     Călătorind pentru noi înseamnă emoție și descoperire!<0></0> <0></0>
@@ -55,6 +55,12 @@ export const ro_language = {
     Călătorind împreună înseamnă împărtășire și flexibilitate!<0></0> <0></0>
     Unul dintre obiectivele noastre este să descoperim lumea împreună!<0></0>
     De pe hartă puteți vedea colorat în violet toate destinațiile următoare în care am dori să mergem și dacă doriți să contribui la realizarea acestui vis, vă vom fi recunoscători!`,
+    textLink: `Cel mai mare cadou va fi să te avem alături de noi în ziua nunții noastre dar dacă vrei să contribui la realizarea visului nostru de a descoperi lumea, îți vom fi recunoscători!<0></0> <0></0>
+    Plicurile sunt întotdeauna binevenite, altfel puteți face un transfer bancar:<0></0>
+    Proprietari: Marian Demian și Ylenia Vincenzi <0></0> <0></0>
+    Banca: ING <0></0> <0></0>
+    IBAN: IT29Z0347501605CC011656326<0></0> <0></0>
+    BIC: INGBITD1`,
     poem: `Călătoria este ca si vântul, te duce oriunde dorește dacă știi să-l urmezi, te împinge înainte dacă știi să-l exploatezi, te și poate duce să-ți pierzi drumul dar și să te facă să descoperi locuri îndepărtate pe care nu ai crezut niciodata că există.<0></0> <0></0> 
     Călătoria este ca sarea, este ca mirodeniile, schimbă gustul a tot ce atingi, lasă parfumuri și arome ce iți raman în inima ta.<0></0> <0></0> 
     Călătoria este ca dragostea. Un har, un zbor, ceva ce nu poți prezice.<0></0> <0></0> 
