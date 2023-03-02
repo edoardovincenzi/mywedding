@@ -78,6 +78,7 @@ export const it_language = {
       Viaggiare è organizzazione e improvvisazione! <0></0> <0></0> 
       Viaggiare insieme è condivisione e flessibilità! <0></0> <0></0> 
       Uno dei nostri obiettivi è scoprire insieme il mondo! E dalla mappa puoi vedere in viola tutte le prossime mete in cui vorremmo andare e se vorrai contribuire alla realizzazione di questo sogno, te ne saremo grati!`,
+    titleTextLink: 'Lista nozze',
     textLink: `Il regalo più grande sarà averti con noi il giorno del nostro matrimonio! Ma se vorrai contribuire alla realizzazione del nostro sogno alla scoperta del mondo, te ne saremo grati!<0></0> <0></0>
       Le buste son sempre ben accette, altrimenti puoi effettuare un bonifico:<0></0>
       Intestatari: Marian Demian e Ylenia Vincenzi <0></0> <0></0>

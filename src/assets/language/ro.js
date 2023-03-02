@@ -55,6 +55,7 @@ export const ro_language = {
     Călătorind împreună înseamnă împărtășire și flexibilitate!<0></0> <0></0>
     Unul dintre obiectivele noastre este să descoperim lumea împreună!<0></0>
     De pe hartă puteți vedea colorat în violet toate destinațiile următoare în care am dori să mergem și dacă doriți să contribui la realizarea acestui vis, vă vom fi recunoscători!`,
+    titleTextLink: 'Lista cadourilor',
     textLink: `Cel mai mare cadou va fi să te avem alături de noi în ziua nunții noastre dar dacă vrei să contribui la realizarea visului nostru de a descoperi lumea, îți vom fi recunoscători!<0></0> <0></0>
     Plicurile sunt întotdeauna binevenite, altfel puteți face un transfer bancar:<0></0>
     Proprietari: Marian Demian și Ylenia Vincenzi <0></0> <0></0>
