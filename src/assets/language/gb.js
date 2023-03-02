@@ -55,7 +55,7 @@ export const gb_language = {
     Travelling for us means emotion and discovery!<0></0> <0></0>
     Travelling is organisation and improvisation!<0></0> <0></0>
     Travelling together is sharing and flexibility!<0></0> <0></0>
-    One of our goals is to discover the world together! And from the map you can see in purple all the next destinations we would like to visit and if you want to contribute to the realisation of this dream, we will be grateful to you!`,
+    One of our goals is to discover the world together! And from the map you can see in purple all the next destinations we would like to visit.`,
     titleTextLink: 'Wedding list',
     textLink: `The greatest gift will be having you with us on our wedding day! If you want to contribute to achieve our dream of discovering the world, we will be grateful to you!<0></0> <0></0>
     Cash are always welcome, otherwise you can make a bank transfer.<0></0><0></0>
