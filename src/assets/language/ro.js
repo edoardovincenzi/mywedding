@@ -3,7 +3,7 @@ export const ro_language = {
     home: 'HOME',
     event: 'EVENIMENTUL',
     nearMe: 'PUNCTE DE INTERES',
-    weddingList: 'LISTA CADOURILOT',
+    weddingList: 'LISTA CADOURILOR',
   },
   home: { days: 'Zile', hours: 'Ore', minutes: 'Minute', seconds: 'Secunde' },
   event: {
@@ -47,7 +47,7 @@ export const ro_language = {
     imgDescriptionMantova: 'Orașul renascentist ce nu te așteptai să vezi.',
   },
   weddingList: {
-    title: 'LISTA CADOURILOT',
+    title: 'LISTA CADOURILOR',
     text: `De când ne-am născut am vizitat 31 de țări, echivalentul a doar 12% din suprafața pământului!<0></0> <0></0>
     Călătoriile sunt una dintre pasiunile noastre cele mai puternice!<0></0> <0></0>
     Călătorind pentru noi înseamnă emoție și descoperire!<0></0> <0></0>
