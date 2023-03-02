@@ -52,8 +52,7 @@ export const gb_language = {
     title: 'WEDDING LIST',
     text: `Since we were born we have visited 31 countries, that is only 12% of the Earth's surface!<0></0> <0></0>
     Travelling is one of our strongest passions!<0></0> <0></0>
-    Travelling for us means emotion and discovery!<0></0> <0></0>
-    Travelling is organisation and improvisation!<0></0> <0></0>
+    Travelling for us means emotion, discovery, organisation and improvisation!<0></0> <0></0>
     Travelling together is sharing and flexibility!<0></0> <0></0>
     One of our goals is to discover the world together! And from the map you can see in purple all the next destinations we would like to visit.`,
     titleTextLink: 'Wedding list',

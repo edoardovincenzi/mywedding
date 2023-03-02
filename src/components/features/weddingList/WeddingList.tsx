@@ -18,7 +18,7 @@ const WeddingList = () => {
           src="/images/world.png"
         />
         <p
-          className="bg-white/90 px-2 rounded-lg text-lg"
+          className="bg-white/90 px-2 rounded-lg text-lg text-center"
           style={{ fontFamily: "'Berkshire Swash', cursive" }}
         >
           <Trans

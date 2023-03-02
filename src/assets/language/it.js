@@ -67,8 +67,7 @@ export const it_language = {
     title: 'LISTA NOZZE',
     text: `Da quando siamo nati ad oggi abbiamo visitato 31 paesi, pari solo al 12% della superficie terrestre!<0></0> <0></0> 
       Viaggiare è una delle nostre passioni più forti! <0></0> <0></0> 
-      Viaggiare per noi significa emozione e scoperta! <0></0> <0></0> 
-      Viaggiare è organizzazione e improvvisazione! <0></0> <0></0> 
+      Viaggiare per noi significa emozione, scoperta, organizzazione e improvvisazione! <0></0> <0></0> 
       Viaggiare insieme è condivisione e flessibilità! <0></0> <0></0> 
       Uno dei nostri obiettivi è scoprire insieme il mondo! E dalla mappa puoi vedere in viola tutte le prossime mete in cui vorremmo andare.`,
     titleTextLink: 'Lista nozze',
