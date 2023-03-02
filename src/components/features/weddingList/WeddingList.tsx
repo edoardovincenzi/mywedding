@@ -13,7 +13,10 @@ const WeddingList = () => {
           <Trans i18nKey="weddingList.text" t={t} components={[<br></br>]} />
         </p>
         <Donation />
-        <img className="w-[80vw] object-contain my-3" src="/images/world.png" />
+        <img
+          className="w-[80vw] object-contain my-3 rounded-lg"
+          src="/images/world.png"
+        />
         <p className="bg-white/90 italic px-2 rounded-lg">
           <Trans
             i18nKey="weddingList.poem"
