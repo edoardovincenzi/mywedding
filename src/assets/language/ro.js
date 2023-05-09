@@ -59,7 +59,7 @@ export const ro_language = {
     Plicurile sunt întotdeauna binevenite, altfel puteți face un transfer bancar.<0></0><0></0>
     <1>Proprietari:</1> Marian Demian și Ylenia Vincenzi <0></0> 
     <1>Banca:</1> ING <0></0>
-    <1>IBAN:</1> IT29Z0347501605CC011656326<0></0>
+    <1>IBAN:</1> IT29Z0347501605CC0011656326<0></0>
     <1>BIC:</1> INGBITD1`,
     poem: `Călătoria este ca si vântul, te duce oriunde dorește dacă știi să-l urmezi, te împinge înainte dacă știi să-l exploatezi, te și poate duce să-ți pierzi drumul dar și să te facă să descoperi locuri îndepărtate pe care nu ai crezut niciodata că există.<0></0> <0></0> 
     Călătoria este ca sarea, este ca mirodeniile, schimbă gustul a tot ce atingi, lasă parfumuri și arome ce iți raman în inima ta.<0></0> <0></0> 
