@@ -75,7 +75,7 @@ export const it_language = {
       Le buste son sempre ben accette, altrimenti puoi effettuare un bonifico.<0></0><0></0>
       <1>Intestatari:</1> Marian Demian e Ylenia Vincenzi <0></0>
       <1>Banca:</1> ING <0></0>
-      <1>IBAN:</1>  IT29Z0347501605CC011656326<0></0>
+      <1>IBAN:</1>  IT29Z0347501605CC0011656326<0></0>
       <1>BIC:</1>  INGBITD1`,
     poem: `Viaggiare è come il vento, che ti porta dove vuole se sai seguirlo, che ti spinge avanti se sai imbrigliarlo,e può condurti a perdere la strada ma anche farti scoprire luoghi remoti, che non avresti creduto esistessero. <0></0> <0></0> 
       Viaggiare è come il sale, è come le spezie, cambia il sapore di tutto ciò che tocchi, ti lascia profumi e fragranze impigliate nel cuore.<0></0> <0></0> 
