@@ -26,7 +26,7 @@ const Donation = () => {
         }`}
       >
         <p
-          className={`py-3 text-base leading-relaxed text-body-color transition-all duration-500 delay-500 ${
+          className={`py-3 text-base leading-relaxed text-body-color transition-all duration-500 delay-500 break-words ${
             open ? '' : 'h-0'
           }`}
         >
