@@ -15,7 +15,7 @@ export const ro_language = {
     whereCerimony: 'Castello Scaligero di Valeggio sul Mincio (VR)',
     whenCerimony: '16:00',
     descriptionCerimony:
-      'Castelul este situat per un mic deal și se poate ajunge per jos. Pentru eveniment va fi posibil accesul și cu mașina dar nu sunt disponibile locuri de parcare. Cele mai apropiate locuri de parcare sunt în Piazza Sân Rocco, la capătul străzi Zamboni și pe străzile în apropiere. Ceremonia civilă durează aproximativ 40 de minute și va avea loc în fermecătoarea curte interioară a castelului. În caz de vreme rea veți primi mai multe informați.',
+      'Castelul este situat per un mic deal și se poate ajunge per jos. Cele mai apropiate locuri de parcare sunt în Piazza Sân Rocco, la capătul străzi Zamboni și pe străzile în apropiere. Ceremonia civilă durează aproximativ 40 de minute și va avea loc în fermecătoarea curte interioară a castelului. În caz de vreme rea veți primi mai multe informați.',
     receipt: 'Cina:',
     whereReceipt: 'Villa Corte Peron',
     whenReceipt: '17:30/18:00',
