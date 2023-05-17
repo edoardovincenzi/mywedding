@@ -19,7 +19,7 @@ export const gb_language = {
     cerimony: `Ceremony`,
     whereCerimony: `Castello Scaligero di Valeggio sul Mincio (VR)`,
     whenCerimony: `4:00 p.m.`,
-    descriptionCerimony: `The castle is located on the top of a small hill and can be reached via two slightly uphill paths. For the event it will also be possible to reach it by car but there is no parking place available. The closest parking areas are in Piazza San Rocco, at the end of Piazza San Rocco and along the neighboring streets. The ceremony lasts 40 minutes and will take place inside the inner courtyard of the castle. In case of bad weather conditions you will receive updates.`,
+    descriptionCerimony: `The castle is located on the top of a small hill and can be reached via two slightly uphill paths. The closest parking areas are in Piazza San Rocco, at the end of Piazza San Rocco and along the neighboring streets. The ceremony lasts 40 minutes and will take place inside the inner courtyard of the castle. In case of bad weather conditions you will receive updates.`,
     receipt: `DINNER`,
     whereReceipt: `Villa Corte Peron`,
     whenReceipt: `5:30/6:00 p.m.`,
