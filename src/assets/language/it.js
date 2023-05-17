@@ -31,8 +31,7 @@ export const it_language = {
       <1>⁃	Parcheggio in Via Di Circonvallazione Maffei (500 metri).</1>
       <1>⁃	Parcheggio Biblioteca Comunale in Vicolo San Carlo Borromeo (600 metri a piedi).</1>
       <1>⁃	Parcheggio in Vicolo Custoza (700 metri a piedi).</1>
-      <1>⁃	Parcheggio in Via Don Giovanni Minzoni (passare a piedi sotto il portico, vicino al bar The Drunk Hutter - 800 metri a piedi fino al castello).</1><0></0> 
-      Per l’evento sarà possibile accedere al castello anche in auto ma solo per accompagnare qualcuno poiché non c’è nessun parcheggio a disposizione.<0></0> <0></0>`,
+      <1>⁃	Parcheggio in Via Don Giovanni Minzoni (passare a piedi sotto il portico, vicino al bar The Drunk Hutter - 800 metri a piedi fino al castello).</1><0></0>`,
     receipt: 'Ricevimento',
     whereReceipt: 'Villa Corte Peron',
     whenReceipt: '17:30/18:00',
